@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BÌNH NƯỚC N5 - TRANG CHỦ</title>
+    <link rel="stylesheet" href="../CSS/binh_dung_nuoc.css">
+    <link rel="stylesheet" href="../fonts/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="../CSS/style-menu.css">
+    <script src="../Js/jquery.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <a href="../HTML/index.html"><img src="../IMG/logo.png" alt="Logo_N5"></a>
+            </div>
+
+            <div class="form-search">
+                <input type="text" placeholder="Nhập sản phẩm cần tìm">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="log">
+                <button class="btn" onclick="window.location.href='dangnhap.html'">Đăng nhập</button>
+                <button class="btn" onclick="window.location.href='dangky.html'">Đăng kí</button>
+            </div>
+
+            <div class="buy">
+                <i class="fa-solid fa-cart-shopping icon"></i>
+            </div>
+        </header>
+
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="../HTML/index.html">TRANG CHỦ</a>
+                </li>
+                <li>
+                    <a href="../HTML/gioithieu.html">GIỚI THIỆU</a>
+                </li>
+                <li>
+                    <a href="#list_product">DANH MỤC SẢN PHẨM </a>
+                    <ul class="submenu submenu_fisrt">
+                        <li><a href="./binh-giu-nhiet.html">Bình Giữ Nhiệt </a></li>
+                        <li><a href="./binh-the-thao.html">Bình Thể Thao</a></li>
+                        <li>
+                            <a href="./binh-dung-nuoc.html">Bình Đựng Nước</a>
+                            <ul class="submenu submenu_second">
+                                <li><a href="#">Bình Nhựa </a></li>
+                                <li><a href="#">Bình Thủy Tinh</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./phu-kien.html">Phụ Kiện</a>
+                            <ul class="submenu submenu_three">
+                                <li><a href="#">Ống Hút Inox</a></li>
+                                <li><a href="#">Ống Hút Thủy Tinh</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="../HTML/ykien.html">Ý KIẾN</a></li>
+            </ul>
+        </nav>
+
+        <section class="content">
+        
+            <div class="wrap__content">
+                <div class="list__menu">
+                    <div class="header__text">
+                        <div class="icon__span">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="text__header--list">Danh mục sản phẩm</div>
+                    </div>
+                    <div class="body__list--menu">
+                        <div class="item__list--link">
+                            <a href="binh-giu-nhiet.html">Bình Giữ Nhiệt</a>
+                        </div>
+
+                        <div class="item__list--link">
+                            <a href="binh-the-thao.html">Bình Thể Thao</a>
+                        </div>
+
+                        <div class="item__list--link">
+                            <a href="binh-dung-nuoc.html">Bình Đựng Nước</a>
+                            <div class="btn__dropdown">
+                                <i class="fa-solid fa-chevron-right" id="icon_btn_drop"></i>
+                            </div>
+                            <div class="sub__menu--list">
+                                <div>
+                                    <a href="#"> > Bình Nước Nhựa</a>
+                                </div>
+                                <div>
+                                    <a href="#"> > Bình Nước Thủy Tinh</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item__list--link">
+                            <a href="phu-kien.html">Phụ Kiện</a>
+                            <div class="btn__dropdown">
+                                <i class="fa-solid fa-chevron-right" id="icon_btn_drop"></i>
+                            </div>
+                            <div class="sub__menu--list">
+                                <div>
+                                    <a href="#"> > Ống Hút Inox</a>
+                                </div>
+                                <div>
+                                    <a href="#"> > Ống Hút Thủy Tinh</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="body__content">
+                    <div>
+                        <h1>BÌNH ĐỰNG NƯỚC</h1><br><br>
+                    </div>
+                    <div class="binhdn">
+                        <div class="binhdn1">        
+                        <img src="../IMG/binhdn1.jfif" alt="Bình đựng nước" class="imgbinhdn" >
+                        <h5 class="tenbinhdn"><a href="">Bình đựng nước (2L)</a><br><br>
+                            Đơn Giá: 199.000VNĐ<br>
+                            <div class="muahangg">
+                                <button name="button" onclick="hello()">Mua hàng</button> 
+                            </div>
+                        </h5>
+                        
+                        </div>
+                        <div class="binhdn1">        
+                            <img src="../IMG/binhdn2.jpg" alt="Bình đựng nước" class="imgbinhdn" >
+                            <h5 class="tenbinhdn"><a href="">Bình đựng nước I'm Happy</a><br><br>
+                                Đơn Giá: 155.000VNĐ<br>
+                                <div class="muahangg">
+                                    <button name="button" onclick="hello()">Mua hàng</button> 
+                                </div>
+                            </h5>
+                        </div>
+                        <div class="binhdn1">        
+                                <img src="../IMG/binhdn3.jpg" alt="Bình đựng nước" class="imgbinhdn" >
+                                <h5 class="tenbinhdn"><a href="">Bình đựng nước Lock&Lock</a><br><br>
+                                    Đơn Giá: 200.000VNĐ<br>
+                                    <div class="muahangg">
+                                        <button name="button" onclick="hello()">Mua hàng</button> 
+                                    </div>
+                                </h5>
+                        </div>
+                        <div class="binhdn1">        
+                            <img src="../IMG/binhdn4.jpg" alt="Bình đựng nước" class="imgbinhdn" >
+                            <h5 class="tenbinhdn"><a href="">Bình đựng nước What's Up</a><br><br>
+                                Đơn Giá: 120.000VNĐ<br>
+                                <div class="muahangg">
+                                    <button name="button" onclick="hello()">Mua hàng</button> 
+                                </div>
+                            </h5>
+                        </div>
+                    </div><br>
+                    <div class="binhdn">
+                        <div class="binhdn1">        
+                        <img src="../IMG/binhdn5.jpg" alt="Bình đựng nước" class="imgbinhdn" >
+                        <h5 class="tenbinhdn"><a href="">Bình đựng nước có vòi (3.5L)</a><br><br>
+                            Đơn Giá: 225.000VNĐ<br>
+                            <div class="muahangg">
+                                <button name="button" onclick="hello()">Mua hàng</button> 
+                            </div>
+                        </h5>
+                        </div>
+                        <div class="binhdn1">        
+                            <img src="../IMG/binhdn7.jpg" alt="Bình đựng nước" class="imgbinhdn" >
+                            <h5 class="tenbinhdn"><a href="">Bình đựng nước 3 ngăn (9l)</a><br><br>
+                                Đơn Giá: 500.000VNĐ<br>
+                                <div class="muahangg">
+                                    <button name="button" onclick="hello()">Mua hàng</button> 
+                                </div>
+                            </h5>
+                            </div>
+                        <div class="binhdn1">        
+                            <img src="../IMG/binhdn8.jpg" alt="Bình đựng nước" class="imgbinhdn" >
+                            <h5 class="tenbinhdn"><a href="">Bình đựng nước 3 ngăn (9l)</a><br><br>
+                                 Đơn Giá: 300.000VNĐ<br>
+                                <div class="muahangg">
+                                    <button name="button" onclick="hello()">Mua hàng</button> 
+                                </div>
+                            </h5>
+                            </div>
+                        <div class="binhdn1">        
+                            <img src="../IMG/binhdn6.jpg" alt="Bình đựng nước" class="imgbinhdn" >
+                            <h5 class="tenbinhdn"><a href="">Bình đựng nước 3 ngăn (9l)</a><br><br>
+                                Đơn Giá: 1.199.000VNĐ<br>
+                                <div class="muahangg">
+                                    <button name="button" onclick="hello()">Mua hàng</button> 
+                                </div>
+                            </h5>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <footer>
+            <section class="link">
+                <h3>Quick Link</h3>
+                <ul>
+                    <li><a href="../HTML/index.html">Trang chủ</a></li>
+                    <li><a href="../HTML/gioithieu.html">Giới thiệu</a></li>
+                    <li><a href="../HTML/binh-giu-nhiet.html" >Danh mục sản phẩm</a></li>
+                    <li><a href="../HTML/ykien.html">Ý kiến</a></li>
+                </ul>
+            </section>
+
+            <section class="member" style="margin-top: 17.5px;">
+                <h3 style="text-align: center;">Member</h3>
+                <table>
+                    <tr>
+                        <td>Bùi Long Đức Huy</td>
+                        <td style="text-align: right;">Bạch Đức Hoàng</td>
+                    </tr>
+                    <tr>
+                        <td>Trần Thanh Huy</td>
+                        <td style="text-align: right;">Đoàn Quốc Huy</td>
+                    </tr>
+                    <tr>
+                        <td>Lê Đăng Hưng </td>
+                        <td style="text-align: right;">Lại Hoàng Hồng</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section>
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>
+                        <i class="footer-item__icon fa-brands fa-facebook"></i>
+                        <a href="">Facebook</a> 
+                    </li>
+                    <li>
+                        <i class="footer-item__icon fa-brands fa-instagram"></i>
+                        <a href="">Instagram</a> 
+                    </li>
+                    <li>
+                        <i class="footer-item__icon fa-brands fa-linkedin"></i>
+                        <a href="">Linkedin</a>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-twitter"></i>
+                        <a href="">Twitter</a>
+                    </li>
+                </ul>
+            </section>
+        </footer>
+    </div>
+
+    <div class="footer-bottom">
+        Copyright © 2022 Sapo.vn - Nền tảng quản lý và bán hàng đa kênh được sử dụng nhiều nhất Việt Nam.
+    </div>
+</body>
+
+</html>
